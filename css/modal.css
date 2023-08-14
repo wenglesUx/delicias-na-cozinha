@@ -1,0 +1,14 @@
+.modal-header{
+    background-image: url(/imagens/bolo\ capa.webp);
+    background-position:center;
+    background-size: cover;
+    color:white;
+}
+.modal-body{
+    color:#ffda42
+}
+.modal-body ul,li{
+    color:gray;
+    list-style: decimal;
+
+}

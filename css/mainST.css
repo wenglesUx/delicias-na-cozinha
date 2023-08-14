@@ -1,0 +1,195 @@
+body{
+   overflow: hidden;
+}
+header{
+
+    background-color:#a3dfc3;
+}
+nav{
+    z-index:10;
+}
+
+i{
+    height:30px;
+    width:30px;
+    position:absolute;
+    font-size:50px;
+    color:red;
+    z-index: 5;
+    border: 2px solid blue;
+    right:0;
+    top:10%;
+    margin-right:40px;
+    display: none;
+
+}
+i:hover{
+    transform:scale(2.2);
+    transition: 0.2s ease-in-out;
+}
+
+menu{
+    width: 40%;
+    
+}
+menu ul{
+    justify-content: space-around;
+   
+}
+li,a{
+    list-style:none;
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+.banner{
+
+  height: 100vh;
+    width: 100vw;
+    
+    
+}
+#description{
+    padding-top: 5%;
+    display:flex;
+    flex-direction:column;
+    gap:3rem;
+    z-index:9;
+    color:white;
+}
+#description h1{
+    text-transform:uppercase;
+
+}
+#description button{
+width:200px;
+height:50px;
+}
+
+section{
+    height:200px;
+    width:100vw;
+    
+    position:absolute;
+    bottom:0;
+    
+}
+.container i{
+    color: white;
+    z-index: 99;
+    font-size: 50px;
+    
+}
+#gradient{
+    background-image: linear-gradient(to right, black,transparent);
+    position: absolute;
+    height: 100vh;;
+    width:100vw;
+    top:0;
+    z-index:-1;
+}
+#backImg img{
+    position: absolute;
+    height: 100vh;;
+    width:100vw;
+    top:0;
+    z-index:-2;
+}
+.btns{
+    position: relative;
+
+}
+.buttonMR{
+    position:absolute;
+    display: none;
+    z-index: 10;
+}
+.buttonMR:hover{
+    transform: scale(1.1);
+}
+.miniaturas{
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+  
+  
+
+}
+.item{
+    height:170px;
+    width: 300px;
+    margin-top:-30px;
+    overflow: hidden;
+    position:relative;
+}
+#mn-item-1{
+
+background-image: url(/imagens/bolo\ de\ cenoura);
+background-size:cover;
+
+}
+#mn-item-2{
+    background-image: url(/imagens/lasanha.webp);
+    background-size:cover;
+    background-position: center;
+}
+
+#mn-item-3{
+        background-image: url(/imagens/strog.jpg);
+        background-size:cover;
+        background-position: center;
+        
+}
+
+#mn-item-4{
+            background-image: url(/imagens/fejoada);
+            background-size:cover;
+            background-position: center;
+            
+}
+            
+
+.item:hover{
+transform: scale(1.1);
+transition:0.3s ease-in-out;
+box-shadow: 0px 5px 5px #ffda42;
+}
+
+#hover-description{
+ 
+   position:absolute;
+
+top:100%;
+   
+
+}
+.item:hover > #hover-description{
+    top:0%;
+    transition: 0.3s ease-in-out;
+    backdrop-filter: blur(7px);
+}
+#sub-desc-area{
+    padding: 10px;
+
+}
+.card-btn{
+   outline: none;
+   border:none; 
+ 
+}
+.card-btn:hover{
+
+   background-color: transparent;
+   border-bottom:2px solid #ffda42;
+   transition: 0.3s ease-in-out;
+   color:white
+}
+
+
+@keyframes cardHidden{
+     0%{
+        transform: scale(1.1);
+     }
+     100%{
+        transform: scale(0.0)     }
+}
