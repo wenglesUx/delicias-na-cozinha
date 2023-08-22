@@ -7,8 +7,8 @@ function reset(){
   bkImg.innerHTML ="<img src='shot-professional-old-chef-dressed-uniform-holding-kitchen-spatula-tongs.jpg'>"
     homeCd.style.display = 'none'
     
-    title.innerText =``
-    qtt.innerText = ``
+    title.innerHTML =`${'<h1>Explore uma variedade de receitas irresistíveis</h1>'}`
+    qtt.innerHTML =`${'<h3>O que seu apetite deseja hoje?</h3>'}`
     ing.innerText = ''
     cards.style.marginTop='';
     //reset de botões modal

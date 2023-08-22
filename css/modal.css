@@ -1,5 +1,5 @@
 .modal-header{
-    background-image: url(/imagens/bolo\ capa.webp);
+    height:150px;
     background-position:center;
     background-size: cover;
     color:white;
@@ -7,8 +7,29 @@
 .modal-body{
     color:#ffda42
 }
+.modal-content h1{
+    text-transform:uppercase;
+}
 .modal-body ul,li{
     color:gray;
     list-style: decimal;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
 
+}
+#Modalbolo .modal-header{
+   
+    background-image: url(/imagens/bolo\ capa.webp);
+  
+}
+#Modallasanha .modal-header{
+    background-image: url(/imagens/lasanha.webp);
+
+}
+#Modalstrogonof .modal-header{
+    background-image: url(/imagens/strog.jpg);
+}
+#Modalfeijoada .modal-header{
+    background-image: url(/imagens/fejoada);
 }
